@@ -17,7 +17,7 @@ const Home = () => {
                 </p>
             </div>
 
-            <button onClick={() => navigate("/audioform")}>
+            <button>
                 sonic-meow
             </button>
             <p className="read-the-docs">

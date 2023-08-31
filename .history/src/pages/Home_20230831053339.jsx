@@ -1,7 +1,6 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Home = () => {
-    const navigate = useNavigate();
     return (
         <div><div>
             <a href="https://vitejs.dev">
@@ -17,7 +16,7 @@ const Home = () => {
                 </p>
             </div>
 
-            <button onClick={() => navigate("/audioform")}>
+            <button>
                 sonic-meow
             </button>
             <p className="read-the-docs">
