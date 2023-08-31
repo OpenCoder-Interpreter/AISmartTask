@@ -2,17 +2,12 @@ import "./styles/App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-// import Start from "./pages/Start";
-// import About from "./pages/About";
-// import Docs from "./pages/Docs";
-// import SignUp from "./pages/SignUp";
-// import SignIn from "./pages/SignIn";
-// import Contact from "./pages/Contact";
+import About from "./pages/About";
 import ChatBot from "./pages/Chatbot";
+import Form from "./pages/Form";
 
 import { MessageSquare, X } from "lucide-react";
 import { useState } from "react";
-import AudioForm from "./pages/AudioForm";
 // import { auth } from "./config/firebase";
 // import { useEffect, useState } from "react";
 // import { ThemeProvider } from "@/components/ThemeProvider"
@@ -34,34 +29,18 @@ function App() {
 
   return (
     <Router>
-      {/* <ThemeProvider attribute="class" defaultTheme="system" storageKey="vite-ui-theme" enableSystem> */}
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-
-          {/* <Route path="/docs" element={<Docs />} />
-
-          <Route path="/start" element={<Start />} />
-
-          <Route path="/about" element={<About />} />
-
-          <Route path="/sign-in" element={<SignIn />} />
-
-          <Route path="/sign-up" element={<SignUp />} />
-
-          <Route path="/contact" element={<Contact />} />*/}
-
-          <Route path="/audioform" element={<AudioForm />} /> 
-        </Routes>
-        {/* {user ? (
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/audioform" element={<Form />} />
+      </Routes>
+      {/* {user ? (
           <> */}
-            <NavigateToChatbotButton />
-
-          {/* </>
+      <NavigateToChatbotButton />
+      {/* </>
         ) : (
           <></>
         )} */}
-      {/* </ThemeProvider> */}
     </Router>
   );
 }
