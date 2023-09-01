@@ -5,6 +5,6 @@ Who is this for? This isn't a toy; it's a tool designed for dedicated musicians 
 Currently, two official codebase are available:
 
 - [SonicMeow-FrontEnd](https://github.com/Lablab-Audio-Craft/GPTAudioCraft-Frontend) uses [Vercel](https://gpt-audio-craft.vercel.app/) for ViteJS WebAp
-- [SonicMeow-BackEnd]((https://github.com/Lablab-Audio-Craft/SonicMeow-Backend.git) uses [Ngrok](https://be79-2600-4041-1f2-1500-c5d0-7-7395-63aa.ngrok-free.app/) for Flask Server
+- [SonicMeow-BackEnd](https://github.com/Lablab-Audio-Craft/SonicMeow-Backend.git) uses [Ngrok](https://be79-2600-4041-1f2-1500-c5d0-7-7395-63aa.ngrok-free.app/) for Flask Server
 
 "#Credit by SonicMeow Team" 
