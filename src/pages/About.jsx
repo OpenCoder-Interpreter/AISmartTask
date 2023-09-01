@@ -44,7 +44,7 @@ function About() {
                 </li>
                 <li>
                   <a
-                    href={person.linkedIn}
+                    href={person.discord}
                     className="text-[#ffffff] hover:text-[#3e66d3]"
                   >
                     <BsDiscord size='24' />
