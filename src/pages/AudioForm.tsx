@@ -94,7 +94,7 @@ const AudioForm: React.FC<AudioFormProps> = ({ onAudioGenerated }) => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-600">Upload Audio</label>
-            <input type="file" accept=".wav" onChange={(e) => setFile(e.target.files ? e.target.files[0] : null)} className="mt-1 p-2 w-full border rounded-md" />
+            <input type="file" accept="audio/*" onChange={(e) => setFile(e.target.files ? e.target.files[0] : null)} className="mt-1 p-2 w-full border rounded-md" />
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-600">BPM</label>
