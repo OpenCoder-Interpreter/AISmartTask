@@ -12,7 +12,7 @@ const team = [
   },
   {
     name: "Kevin Griffing",
-    job: "Computer Programmer",
+    job: "Computer Programmer & Founder of @TheCollabAgePatch",
     image: KevinImg,
     linkedIn: "https://twitter.com/thepatch_kev",
     github: "https://github.com/betweentwomidnights",
@@ -20,7 +20,7 @@ const team = [
   },
   {
     name: "Richard Porteous",
-    job: "Computer Programmer",
+    job: "Sales and Marketing Manager & AI architecture Developer",
     image: RichardImg,
     linkedIn: "https://www.linkedin.com/in/richard-porteous-168389248/",
     github: "https://github.com/bakobiibizo",
