@@ -13,7 +13,7 @@ function About() {
             Our Team
           </h2>
         </div>
-        <div className="grid gap-8 lg:gap-16 sm:grid-cols-2">
+        <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:sm:grid-cols-3">
           {team.map((person) => (
             <div key={person.name} className="text-center text-md text-primary">
               <img
