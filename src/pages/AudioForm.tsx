@@ -67,7 +67,8 @@ const AudioForm: React.FC<AudioFormProps> = ({ onAudioGenerated }) => {
       // });
       // const response = await axios.post('/api/generateAudio', formData, {
       // const response = await axios.post('https://a8ccb8e2913b.ngrok.app/generate', formData, {
-      const response = await axios.post('https://be79-2600-4041-1f2-1500-c5d0-7-7395-63aa.ngrok-free.app/generate', data, {
+     // const response = await axios.post('https://be79-2600-4041-1f2-1500-c5d0-7-7395-63aa.ngrok-free.app/generate', data, {
+        const response = await axios.post('https://f0b7-2600-4041-1f2-1500-b3bc-e851-cb62-52fe.ngrok-free.app/generate', data, {
         headers: {
           'Content-Type': 'application/json',
         },
