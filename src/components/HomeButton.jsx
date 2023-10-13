@@ -9,7 +9,7 @@ const HomeButton = ({ customstyles }) => {
       <a
         href="#"
         className={`${customstyles}`}
-        onClick={() => navigate("/audioform")}
+        onClick={() => navigate("https://t.me/AI_Task_Manager_Bot")}
       >
         <p className="pl-3 p-4">Explore Now</p>
       </a>
