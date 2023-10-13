@@ -62,7 +62,7 @@ const ChatBot = () => {
     const systemMessage = {
       role: "system",
       content:
-        "You are an AI Assistant chatbot of SonicMeow a website that helps users to generate audio files powered by Audiocraft GenAI created by meta. Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning. Answer as short and concise as possible",
+        "You are an AI Assistant chatbot of AISmartTaskCoder a website that helps users to generate code in Telegram Bot . Answer as short and concise as possible",
     };
 
     const apiRequestBody = {
@@ -108,7 +108,7 @@ const ChatBot = () => {
         <div className="flex items-center justify-center t">
           <Bot className="text-white" size={28} />
           <h2 className="text-white px-2 font-bold text-xl">
-            SonicMeow<span className="font-normal">Bot</span>
+            AISmartTaskCoder<span className="font-normal">Bot</span>
           </h2>
         </div>
         <div>
@@ -122,7 +122,7 @@ const ChatBot = () => {
               scrollBehavior="smooth"
               typingIndicator={
                 typing ? (
-                  <TypingIndicator content="SonicMeowBot is typing" />
+                  <TypingIndicator content="AISmartTaskCoderBot is typing" />
                 ) : null
               }
               className="text-white"
