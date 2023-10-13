@@ -32,9 +32,9 @@ function Welcome() {
                   <TypewriterComponent
                     options={{
                       strings: [
-                        "#SonicMeow",
-                        "#Audiocraft",
-                        "#MusicGen",
+                        "#AISmartTaskCoder",
+                        "#TaskCoder",
+                        "#AISmart",
                       ],
                       autoStart: true,
                       loop: true,
