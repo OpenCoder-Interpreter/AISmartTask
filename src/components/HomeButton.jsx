@@ -9,7 +9,6 @@ const HomeButton = ({ customstyles }) => {
       <a
         href="https://t.me/AI_Task_Manager_Bot"
         className={`${customstyles}`}
-{/*         onClick={() => navigate("")} */}
       >
         <p className="pl-3 p-4">Explore Now</p>
       </a>
