@@ -10,9 +10,9 @@ const Home = () => {
         <div className="flex-box flex-col bg-slate-700">
             <Header />
             <Welcome />
-            <About />
-            <Subscription />
-            <Contact />
+{/*             <About /> */}
+{/*             <Subscription /> */}
+          {/*    <Contact /> */}
             <Footer />
         </div>
     )
