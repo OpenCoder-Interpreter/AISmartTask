@@ -17,7 +17,7 @@ const ChatBot = () => {
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
     {
-      message: "👋🏻 Hi, I am SonicMeow! How can I help you?",
+      message: "👋🏻 Hi, I am AISmartTaskCoder! How can I help you?",
       sentTime: "just now",
       sender: "ChatGPT",
       role: "system",
