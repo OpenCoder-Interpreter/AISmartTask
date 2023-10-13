@@ -16,8 +16,8 @@ function Welcome() {
 
 
                   <h2 className="text-5xl text-firstLogo drop-shadow-sm shadow-black">
-                    Sonic
-                    <span className="text-altLogo">Meow</span>
+                    AISmart
+                    <span className="text-altLogo">TaskCoder</span>
 
                   </h2>
                 </h1>
