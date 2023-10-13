@@ -11,9 +11,9 @@ function MenuItems() {
         Home
       </div>
 
-      <div onClick={() => navigate("/audioform")} className={cn("menu-item", location.pathname === '/audioform' ? "bg-white text-slate-900 font-semibold" : "bg-slate-900")}>
+{/*       <div onClick={() => navigate("/audioform")} className={cn("menu-item", location.pathname === '/audioform' ? "bg-white text-slate-900 font-semibold" : "bg-slate-900")}>
         AudioForm
-      </div>
+      </div> */}
       <div onClick={() => navigate("/about")} className={cn("menu-item", location.pathname === '/about' ? "bg-white text-slate-900 font-semibold" : "bg-slate-900")}>
         About
       </div>
