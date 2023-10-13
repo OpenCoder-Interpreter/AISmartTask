@@ -53,7 +53,7 @@ function Welcome() {
             <div className="mx-3">
               <img
                 className="logo rounded-full inline-block w-screen p-8 md:p-0"
-                src="audiocraft.jpeg"
+                src="Dynamic_Task_Management.png"
               />
             </div>
           </div>
