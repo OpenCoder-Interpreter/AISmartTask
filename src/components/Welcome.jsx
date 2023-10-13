@@ -22,10 +22,10 @@ function Welcome() {
                   </h2>
                 </h1>
                 <p className="max-w-2xl mb-6  font-light text-primary lg:mb-8 md:text-lg lg:text-xl">
-                  Say goodbye to manual song creation! Our
+                  Say goodbye to manual code creation! Our
                   AI-powered technology ensures precise and efficient
-                  music generation. Join the revolution and experience the
-                  future of Audiocraft with SonicMeow
+                  code generation. Join the revolution and experience the
+                  future of OpenInterpreter with AISmartTaskCoder
                   .
                 </p>
                 <h2 className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-2xl pb-6 font-bold text-transparent lg:text-2xl">
