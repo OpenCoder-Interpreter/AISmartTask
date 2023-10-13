@@ -7,9 +7,9 @@ const HomeButton = ({ customstyles }) => {
   return (
     <div className="my-8 w-48 flex-box text-center border rounded-md shadow-md hover:shadow-red shadowred">
       <a
-        href="#"
+        href="https://t.me/AI_Task_Manager_Bot"
         className={`${customstyles}`}
-        onClick={() => navigate("https://t.me/AI_Task_Manager_Bot")}
+{/*         onClick={() => navigate("")} */}
       >
         <p className="pl-3 p-4">Explore Now</p>
       </a>
