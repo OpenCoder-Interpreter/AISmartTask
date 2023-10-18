@@ -17,7 +17,7 @@ function Welcome() {
 
                   <h2 className="text-5xl text-firstLogo drop-shadow-sm shadow-black">
                     AISmart
-                    <span className="text-altLogo">TaskCoder</span>
+                    <span className="text-altLogo">Task</span>
 
                   </h2>
                 </h1>
