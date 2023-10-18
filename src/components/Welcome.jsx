@@ -25,16 +25,16 @@ function Welcome() {
                   Say goodbye to manual code creation! Our
                   AI-powered technology ensures precise and efficient
                   code generation. Join the revolution and experience the
-                  future of OpenInterpreter with AISmartTaskCoder
+                  future of OpenInterpreter with AISmartTask
                   .
                 </p>
                 <h2 className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-2xl pb-6 font-bold text-transparent lg:text-2xl">
                   <TypewriterComponent
                     options={{
                       strings: [
-                        "#AISmartTaskCoder",
-                        "#TaskCoder",
-                        "#AISmart",
+                        "#AISmartTask",
+                        "#TaskManager",
+                        "#AISmartBot",
                       ],
                       autoStart: true,
                       loop: true,
