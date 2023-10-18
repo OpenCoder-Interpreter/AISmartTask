@@ -11,7 +11,7 @@ function Footer() {
                 <Logo />
                 <div className="py-5 text-secondText text-base font-normal flex-box">
                     <CopyrightIcon />
-                    2023 AISmartTaskCoder - All Right Reserved
+                    2023 AISmartTask - All Right Reserved by OpenCoders
                 </div>
                 <div className="py-3">
                     <div className="flex-box text-white">
